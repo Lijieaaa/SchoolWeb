@@ -1,0 +1,15 @@
+create table company_info(
+compID int(100) primary key,
+compword varchar(30) not null,
+compkey varchar(30) not null,
+company_name varchar(100) not null,
+company_situation varchar(100) not null,
+company_location varchar(50) not null,
+company_size varchar(50) not null,
+company_check int(10)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8;
+alter table company_info change compID compID int(100) auto_increment;
+
+
+
+c
